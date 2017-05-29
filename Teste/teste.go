@@ -48,7 +48,7 @@ type T struct{
 	 value int
 }
 
-//aqui a função printT está sendo assinada para a struct T
+//aqui a função printT está sendo assinada para a struct T -
 func (c* T) printT(){
 	 fmt.Println(c.name)
 	 fmt.Println(c.value)
